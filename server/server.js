@@ -7,6 +7,7 @@ require("freedom-routing-controllers");
 const app = require('./init.js');
 const debug = require('debug')('Express:server');
 const http = require('http');
+var colors = require("colors");
 
 /**
  * Get port from environment and store in Express.
@@ -27,6 +28,7 @@ var server = app;
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+console.log((`please access koa server http://localhost:${port}`).bold.green);
 
 /**
  * Normalize a port into a number, string, or false.

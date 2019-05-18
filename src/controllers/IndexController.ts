@@ -27,7 +27,7 @@ export class IndexController {
   async getIndexAction(@Ctx() ctx): Promise<any> {
     //throw new BusinessError(HttpResponseCodeEnum.Forbidden, "未授权，不能访问");
     return {
-      title: "51talk大前端倾心打造"
+      title: "freedom大前端倾心打造"
     };
   }
 }
