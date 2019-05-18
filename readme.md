@@ -1,6 +1,6 @@
 ### 项目工程模板介绍
 
-此工程模板基于Typescript、Express搭建，使得开发应用变得几乎跟java类似，强类型的使用使得我们能更方便的维护应用业务逻辑，编译阶段即可发现潜在的由于类型使用不正确而导致的应用错误
+此工程模板基于Typescript、Express搭建，使得开发web应用变得几乎跟java类似，强类型的使用使得我们能更方便的维护应用业务逻辑，编译阶段即可发现潜在的由于类型使用不正确而导致的应用错误
 
 此项目工程模板使用的是**routing-controllers**，在此感谢该框架的作者，详情请查看[routing-controllers](https://github.com/typestack/routing-controllers)
 
